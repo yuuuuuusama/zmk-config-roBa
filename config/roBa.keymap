@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R  &kp T                                        &kp Y     &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S           &kp D         &kp F  &kp G  &msc MOVE_Y(5)      &kp SINGLE_QUOTE  &kp H     &kp J  &kp K      &kp L    &kp ENTER
-&kp Z      &kp X           &kp C         &kp V  &kp B  &kp SPACE           &kp SEMICOLON     &kp N     &kp M  &kp COMMA  &kp DOT  &mt LANGUAGE_4 CAPSLOCK
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &to 1  &to 2  &to 0               &mkp MB1          &mkp MB2                             &kp DEL
+&kp Q      &kp W           &kp E         &kp R  &kp T                                         &kp Y     &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S           &kp D         &kp F  &kp G  &msc MOVE_Y(20)      &kp SINGLE_QUOTE  &kp H     &kp J  &kp K      &kp L    &kp ENTER
+&kp Z      &kp X           &kp C         &kp V  &kp B  &kp SPACE            &kp SEMICOLON     &kp N     &kp M  &kp COMMA  &kp DOT  &mt LANGUAGE_4 CAPSLOCK
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &to 1  &to 2  &to 0                &mkp MB1          &mkp MB2                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,19 +91,19 @@
 
         FUNCTION {
             bindings = <
-&kp TILDE2        &kp EXCL           &kp AT              &kp HASH  &kp DLLR                                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp BACKSLASH
-&kp PRCNT         &kp CARET          &kp AMPS            &kp STAR  &kp LPAR  &msc MOVE_Y(5)      &kp TAB         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ENTER
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACE)  &kp RBRC  &kp RPAR  &kp SPACE           &kp LANGUAGE_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LEFT_ALT        &to 1     &to 2     &to 0               &mkp MB1        &mkp MB2                                                &kp BACKSPACE
+&kp TILDE2        &kp EXCL           &kp AT              &kp HASH  &kp DLLR                                       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp BACKSLASH
+&kp PRCNT         &kp CARET          &kp AMPS            &kp STAR  &kp LPAR  &msc MOVE_Y(20)      &kp TAB         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ENTER
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACE)  &kp RBRC  &kp RPAR  &kp SPACE            &kp LANGUAGE_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_SHIFT     &kp LEFT_ALT        &to 1     &to 2     &to 0                &mkp MB1        &mkp MB2                                                &kp BACKSPACE
             >;
         };
 
         NUM {
             bindings = <
-&kp ESC                     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                          &kp C_POWER      &kp PAGE_UP  &kp PAGE_DOWN                  &kp HOME        &kp END
-&kp TAB                     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &msc MOVE_Y(5)      &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1     &mkp MB2                       &kp UP_ARROW    &kp ENTER
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL           &kp LC(B)       &kp LC(V)        &kp LC(C)    &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW
-&trans                      &trans           &trans           &to 1            &to 2         &to 0               &mkp MB1        &trans                                                                       &kp BACKSPACE
+&kp ESC           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                     &kp C_POWER  &kp PAGE_UP  &kp PAGE_DOWN                  &kp HOME        &kp END
+&kp TAB           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &msc MOVE_Y(20)      &mkp MB4  &mkp MB3     &mkp MB1     &mkp MB2                       &kp UP_ARROW    &kp ENTER
+&kp CAPSLOCK      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp SPACE            &mkp MB5  &kp LC(V)    &kp LC(C)    &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW
+&kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp LEFT_ALT     &to 1            &to 2         &to 0                &mkp MB1  &trans                                                                   &kp BACKSPACE
             >;
         };
 
