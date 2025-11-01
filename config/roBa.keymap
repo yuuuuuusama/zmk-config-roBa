@@ -102,10 +102,10 @@
 
         NUM {
             bindings = <
-&kp ESC           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                               &kp C_POWER  &kp PAGE_UP  &kp PAGE_DOWN                  &kp HOME        &kp END
-&kp TAB           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &trans         &mkp MB4  &mkp MB3     &mkp MB1     &mkp MB2                       &kp UP_ARROW    &kp ENTER
-&kp CAPSLOCK      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp SPACE      &mkp MB5  &kp LC(V)    &kp LC(C)    &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW
-&kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp LEFT_ALT     &to 1            &to 2         &to 0          &to 3     &to 4                                                                    &kp BACKSPACE
+&kp ESC           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                        &kp C_POWER  &kp PAGE_UP  &kp PAGE_DOWN                  &kp HOME        &kp END
+&kp TAB           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK     &trans               &mkp MB4  &mkp MB3     &mkp MB1     &mkp MB2                       &kp UP_ARROW    &kp ENTER
+&kp CAPSLOCK      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &msc MOVE_Y(10)  &msc MOVE_X(10)      &mkp MB5  &kp LC(V)    &kp LC(C)    &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW
+&kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp LEFT_ALT     &to 1            &to 2            &to 0                &to 3     &to 4                                                                    &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
