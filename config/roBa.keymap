@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp ESC                     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                          &kp C_POWER      &kp PAGE_UP  &kp PAGE_DOWN   &kp HOME         &kp END
-&kp TAB                     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &msc MOVE_Y(5)      &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1     &mkp MB2        &kp DOLLAR       &kp ENTER
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL           &kp LC(B)       &kp LC(V)        &kp LC(C)    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans                      &trans           &trans           &to 1            &to 2         &to 0               &mkp MB1        &trans                                                         &kp BACKSPACE
+&kp ESC                     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                          &kp C_POWER      &kp PAGE_UP  &kp PAGE_DOWN                  &kp HOME        &kp END
+&kp TAB                     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &msc MOVE_Y(5)      &kp UNDERSCORE  &kp EXCLAMATION  &mkp MB1     &mkp MB2                       &kp UP_ARROW    &kp ENTER
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL           &kp LC(B)       &kp LC(V)        &kp LC(C)    &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW
+&trans                      &trans           &trans           &to 1            &to 2         &to 0               &mkp MB1        &trans                                                                       &kp BACKSPACE
             >;
         };
 
