@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp TILDE         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)                                 &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp BSLH
-&kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans         &kp TAB         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ENTER
-&kp BACKSLASH     &kp BSLH          &kp GRAVE         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp SPACE      &kp LANGUAGE_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp LEFT_ALT      &to 1              &to 2             &to 0          &mkp MB1        &mkp MB2                                                &kp BACKSPACE
+&kp TILDE         &kp EXCL        &kp AT        &kp HASH           &kp DLLR                                      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS     &kp BSLH
+&kp PRCNT         &kp CARET       &kp AMPS      &kp STAR           &kp LPAR       &trans         &kp TAB         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL     &kp ENTER
+&kp GREATER_THAN  &kp LT          &kp GRAVE     &kp RIGHT_BRACKET  &kp BACKSLASH  &kp SPACE      &kp LANGUAGE_4  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &to 1              &to 2          &to 0          &mkp MB1        &mkp MB2                                                &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
